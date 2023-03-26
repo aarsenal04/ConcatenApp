@@ -54,7 +54,7 @@
         android:textAlignment="center"
         android:textColor="#9C27B0"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteX="126dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <Button
