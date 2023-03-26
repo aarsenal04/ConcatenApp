@@ -7,12 +7,13 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
         android:text="@string/instruccion_usuario"
         android:textAlignment="center"
-        android:textColor="#009688"
+        android:textColor="#00796B"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,47 +26,55 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="310dp"
         android:fontFamily="monospace"
         android:text="@string/instruccion_usuario2"
         android:textAlignment="center"
-        android:textColor="#009688"
+        android:textColor="#00796B"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="310dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="170dp"
         android:fontFamily="monospace"
         android:text="@string/resultado_label"
         android:textAlignment="center"
         android:textColor="#673AB7"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="539dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:fontFamily="monospace"
         android:text="@string/app_name"
         android:textAlignment="center"
         android:textColor="#9C27B0"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
         android:fontFamily="monospace"
-        android:text="Concatenar"
+        android:text="@string/textoboton"
         android:textAlignment="center"
         android:textSize="14sp"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="472dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

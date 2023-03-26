@@ -7,4 +7,6 @@
 
     <string name="resultado_label">Resultado del texto concatenado: </string>
 
+    <string name="textoboton">Concatenar</string>
+
 </resources>
