@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ConcatenApp</string>
+
+    <string name="instruccion_usuario">Escriba el primer texto por concatenar</string>
+
+    <string name="instruccion_usuario2">Escriba el segundo texto por concatenar</string>
+
+    <string name="resultado_label">Resultado del texto concatenado: </string>
+
+</resources>
